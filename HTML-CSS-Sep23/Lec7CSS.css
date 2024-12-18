@@ -1,0 +1,44 @@
+/* ✅ Fonts In CSS  */
+#CSSFont {
+    font-family: 'Notable',sans-serif;
+    font-variant: small-caps;
+    font-size: 2em;
+    /* font-style: oblique; */
+    font-weight: bold;
+}
+
+/* ✅Text In CSS  */
+#CSSText {
+    font-family: 'Notable',sans-serif;
+    font-size: 2em;
+    color: brown;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    direction: ltr;
+    /* text-indent: 40px; */
+    text-align: center;
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+}
+
+/* ✅ CSS Background Properties */
+ .backImg {
+    height: 100%;
+    width: 100%;
+    /* background-color: green */
+    background-image: url('ganesha.jpg');
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+.backImg1 {
+    height: 100%;
+    width: 100%;
+    /* background-color: green */
+    background-image: url('Shiva.jpg');
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+
+<body>
+    <script>
+        // function generateRandomMove() {
+        //     let random = Math.random();
+        //     let randomMove = random * 10;       
+        //     return randomMove;
+        // }
+        // let randomMove = generateRandomMove();
+        // console.log(generateRandomMove());
+        // console.log(generateRandomMove());
+        // console.log(generateRandomMove());
+        // console.log(generateRandomMove());
+        // console.log(generateRandomMove());
+
+        function determineDriveStatus() {
+            let age = 21;
+            if (age === undefined) {
+                return 'Aap avatar hain';
+            }
+            console.log('Chceking drive status');
+
+            let status;
+            if (age > 18) {
+                return 'You can drive';
+            } else {
+                return 'You can not drive';
+            }
+        }
+        console.log(determineDriveStatus());
+    </script>
+</body>
+
+</html>

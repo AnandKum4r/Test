@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean</title>
+</head>
+
+<body>
+    <!-- Method to show any js content in browser instead of console panel -->
+    <h1 id="greater-than"></h1>
+    <h1 id="less-than"></h1>
+    <!-- 
+    Boolean Operators 
+        Equality ==,===
+        Inquality !=.!==
+        Relational >,<,>=,<=
+      -->
+
+    <script>
+        document.querySelector('#greater-than').innerText = 5 > 8;
+        // console.log(5>8);
+        document.querySelector('#less-than').innerText = 9 > 5;
+        // console.log(8<2)
+        // console.log(typeof(6>9));
+        // console.log(typeof('anand'));
+        // console.log(5==5); //it checks equality
+        // console.log(5==4);
+
+        // == checks value equality
+        console.log(5 == '5.0');
+        console.log(5 == '5');
+        // ===checks value and type equality
+        console.log(5 === '5.0');
+        console.log(5 === '5');
+        console.log(5 === '4');
+
+        console.log(5 + 5 === 4 + 6);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truthy and Falsy</title>
+</head>
+<body>
+    <script>
+        // Falsy Values: 0,null,undefined,false,NaN,""(empty string)
+        // Truthy Values: All values not listed as Falsy
+        
+        // let age=22;            //Truthy
+        // let age;               //Undefined
+        // let age=0;             //0
+        // let age=null           //null  
+        let age=4/'anand';     //NaN:Not a Number 
+        console.log(age);
+        if(age){
+            console.log('You have a valid age');
+        }else{
+            console.log('Aap avtaar hain');
+        }
+    </script>
+</body>
+</html>

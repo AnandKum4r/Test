@@ -1,0 +1,33 @@
+/*✅ CSS Float  */
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.logo {
+    width: 30%;
+    line-height: 80px;
+    text-align: center;
+    background-color: red;
+    float: left;
+}
+.menu {
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+    background-color: green;
+    /* float: right; */
+}
+/* ✅ CSS Display  */
+ul {
+    list-style: none;
+    text-align: right;
+    /* direction: rtl; */
+}
+li {
+    display: inline-block;
+    /* border: 1px solid; */
+    padding: 0 10px;
+}
+
+/* ✅ Cursor  */

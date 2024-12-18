@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cricket Game Using Function</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Optimising This Project Using Function -->
+
+    <h1>Bat Ball Stump Game</h1>
+    <button onclick="
+    let computerChoice=generateComputerChoice();
+
+    
+        alert(`You have choosen Bat. Computer Choice is ${computerChoice} and ${resultMsg}`)
+        ">Bat</button>
+
+    <button onclick="
+    computerChoice= generateComputerChoice();
+        if (computerChoice==='Ball'){
+            resultMsg=`It's a tie`;
+        }
+        else if(computerChoice==='Bat'){
+            resultMsg='Computer has won';
+        }
+        else if(computerChoice==='Stump'){
+            resultMsg= 'User Won';
+        }
+        alert(`You have choosen Ball. Computer Choice is ${computerChoice} and ${resultMsg}`);
+        ">Ball</button>
+
+    <button onclick="
+    computerChoice= generateComputerChoice();
+        if (computerChoice==='Ball'){
+            resultMsg='Computer has won';
+        }
+        else if(computerChoice==='Bat'){
+            resultMsg='User Won';
+        }
+        else if(computerChoice==='Stump'){
+            resultMsg= `It's a tie`;
+        }
+        alert(`You have choosen Stump. Computer Choice is ${computerChoice} and ${resultMsg}`);
+        ">Stump</button>
+
+    <script>
+        function generateComputerChoice() {
+            // This will generate random number between 0 and 3
+            let randomNumber = Math.random() * 3;
+            if (randomNumber > 0 && randomNumber <= 1) {
+                return 'Bat'
+            }
+            else if (randomNumber > 1 && randomNumber <= 2) {
+                return 'Ball';
+            }
+            else {
+                return 'Stump';
+            }
+        }
+
+        function getResult(userMove, computerMove) {
+            if (computerMove === userMove) {
+                return `It's a tie`;
+            }
+            else if(computerMove='Bat' && userMove==='Ball'){
+                return 'Computer has Won';
+            }
+        }
+    </script>
+</body>
+
+</html>

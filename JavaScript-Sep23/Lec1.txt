@@ -1,0 +1,27 @@
+JavaScript
+1. Word vs Keyword
+2. VAR CONST LET
+- - The difference
+- - Window Object
+- - Browser Context API
+- - Stack
+- - Heap Memory
+- - Execution Context
+- - Lexical Environment
+3. Hoisting
+4. Types Of JavaScript
+- - How To Copy Reference Values
+5. Conditionals
+6. If Else Else-If
+- - Truthy vs Falsy
+- - Switch
+7. Loops
+- - For While
+- - ForEach forIn ForOf Do-While
+8. Functions
+- - Callback Functions
+- - Parameters,Arguments
+9. Arrays
+10. Push Pop Shift Unshift
+11. Objects
+12. Props vs Methods
